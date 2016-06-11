@@ -49,6 +49,11 @@ a {
         margin-top: 1rem;
         margin-left: 0; } }
 
+.page-header a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .page-header {
   clear: both;
   color: #fff;
@@ -224,6 +229,7 @@ a {
     border: 0; }
 
 .site-footer {
+  clear: both;
   padding-top: 2rem;
   margin-top: 2rem;
   border-top: solid 1px #eff0f1; }
@@ -244,6 +250,21 @@ a {
 .site-footer-credits {
   color: #819198; }
 
+.clear {
+  clear: both;
+}
+
+.feature {
+
+  width: 30%;
+  margin-right: 3%;
+  float:left;
+}
+
+.feature h3 {
+  margin-left: 20px;
+}
+
 #nav-main {
   text-align:center;
 }
@@ -259,4 +280,8 @@ a {
 #nav-main li {
   float: left;
   margin-left: 20px;
+}
+
+#about .page-header {
+  background-image: url('../assets/header2.jpg');
 }
